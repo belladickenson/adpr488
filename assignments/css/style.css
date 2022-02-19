@@ -1,0 +1,28 @@
+body {
+    margin: 0px 10%;
+    font-family: sans-serif;
+    }
+header {
+    background-color:#8799c2;
+    color:white;
+    padding: 2rem;
+}
+  h1 {
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+  }
+  h3 {
+    font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
+  img {
+      border-radius: 50%;
+      border: 5px solid #8799c2;
+  }

@@ -1,7 +1,11 @@
 body {
     margin: 0px 10%;
     font-family: sans-serif;
+    background-image: url("../images/topography.png");
     }
+.container {
+  background-color:white;
+}
 header {
     background-color:#8799c2;
     color:white;

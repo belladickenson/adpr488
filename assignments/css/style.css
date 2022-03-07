@@ -30,6 +30,14 @@ header {
       border-radius: 50%;
       border: 5px solid #8799c2;
   }
+  a:link, a:visited {
+    color:#8799c2;
+    text-decoration: none;
+  }
+  a:hover {
+    color:#6c7da3;
+    text-decoration: underline;
+  }
   /*   links  */
   .socials i {
     text-decoration:none;
@@ -65,4 +73,21 @@ header {
   .col-span-4 {
     grid-column: span 4;
   }
+}
+
+/*  components  */
+.button:link, .button:visited{
+  color:white;
+  background-color:#8799c2;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 1.75rem;
+  border-radius: .5rem;
+  box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+  display:inline-block;
+  margin: 0 .25rem .25rem 0;
+  transition: background-color 0.5s ease;
+}
+.button:hover{
+  background-color:#6c7da3;
 }

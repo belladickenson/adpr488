@@ -43,12 +43,45 @@ img {
 }
 .container > * {
     grid-column: span 12;
+    text-align:center;
+}
+ /* header{
+    width:100%;
+    background-color:#007CBC;
+    grid-column: 1;
+}
+footer{
+    width:100%;
+    background-color:#007CBC;
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+} */
+.main {
+    grid-column: span 12;
+    background-color:#f5ba36;
+    height:300px;
+} 
+section,nav {
+    border:1px solid blue;
+    padding:30px;
 }
 
-/*       Desktop Layout         */
+/*       Desktop Layout       */
 @media screen and (min-width: 40rem){
-    .site-id {
-        grid-column: 1 / span 6;
+
+    .col-span-2 {
+        grid-column: span 2;
+    }
+    .col-span-4 {
+        grid-column: span 4;
+    }
+    .col-span-1 {
+        grid-column: span 1;
+    }
+    footer {
+        grid-column: 1 / span 12;
     }
     .menu {
         grid-column: 7 / span 6;

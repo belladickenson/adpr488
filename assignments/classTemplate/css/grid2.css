@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #033f5f;
+    --second-color: #007CBC;
+    --nuetral-grey:#747e83;
+    --nuetral-light: #ffffff;
+    --highlight-color: #f5ba36;
+}
+* {
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+h1{
+    font-size:2.5rem;
+    color: var(--nuetral-light);
+}
+h2{
+    font-size:2rem;
+    color: var(--primary-color);
+}
+h3{
+    font-size:1.5rem;
+    color: var(--primary-color);
+}
+p, ul, ol {
+    font-size:1.25rem;
+    line-height: 1.75rem;
+    color: var(--nuetral-grey);
+}
+img {
+    max-width:100%;
+}
+
+/*       layout         */
+.container {
+    width: min(95%, 75rem);
+    margin: 0 auto;
+    display:grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12,1fr);
+}
+.container > * {
+    grid-column: span 12;
+    text-align:center;
+}
+
+.main {
+    grid-column: span 12;
+    background-color:#f5ba36;
+    height:300px;
+} 
+section,nav {
+    border:1px solid grey;
+    padding:30px;
+}
+.blue {
+    background-color:rgb(120, 175, 201);
+}
+.pink {
+    background-color:rgb(236, 179, 234);
+}
+.purple {
+    background-color:rgb(158, 126, 194);
+}
+.yellow {
+    background-color:rgb(250, 245, 182);
+}
+
+/*       Desktop Layout       */
+@media screen and (min-width: 40rem){
+
+    .col-span-1 {
+        grid-column: span 1;
+    }
+    .col-span-2 {
+        grid-column: span 2;
+    }
+    .col-span-3 {
+        grid-column: span 3;
+    }
+    .col-span-4 {
+        grid-column: span 4;
+    }
+    .col-span-5 {
+        grid-column: span 5;
+    }
+    .col-span-6 {
+        grid-column: span 6;
+    }
+    
+    
+    footer {
+        grid-column: 1 / span 12;
+    }
+    .menu {
+        grid-column: 7 / span 6;
+    }
+    .company {
+        grid-column: 1 / span 8;
+    }
+    .company-image {
+        grid-column: 9 / span 4;
+    }
+}

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zillow</title>
+    
+    <!--SEO -->
+    <meta name="description" content="">
+            
+    <!--Icons -->
+        <!-- Make iOS icon 180x180 PNG -->
+        <link rel="apple-touch-icon" href="#">
+        <!-- Make Shortcut icon 32x32 PNG -->
+        <link rel="shortcut icon" href="#">
+        
+    <!-- Needed for RWD -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!-- Styles -->
+        <link href="css/zillow.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d0752a3902.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            
+                });
+        </script>
+
+        <script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</head>
+
+<body>
+    <header class="container-lg">
+        <!-- Navigation -->
+        <nav class="menu">
+            <div class="myLinks">
+                <ul class="menu-left">
+                    <li><a href="/assignments/project2/zillow-search.html">Buy</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Home Loans</a></li>
+                    <li><a href="#">Agent Finder</a></li>
+                </ul>
+            </div>
+            <a href="/assignments/project2/zillow.html"><img src="/assignments/project2/images/zillow-logo.png" alt="Zillow Logo"></a>
+            <div class="myLinks">
+                <ul class="menu-right">
+                    <li><a href="#">Manage Rentals</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </div>
+    </nav>
+    </header>
+
+<div class="hero-image">
+<div class="head-mobile">
+    <img src="images/z-logo-white.svg" alt="Zillow Logo White">
+    
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+
+</div>
+
+  <div class="hero-text">
+    <h1>Find your place</h1>
+    <div class="search">
+        <input type="text" class="searchTerm" placeholder="Enter an address, neighborhood, city, or ZIP code">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+       </button>
+    </div>
+  </div>
+</div>
+
+<section class="home-cards">
+    <div class="card-group text-center">
+        <div class="cards">
+            <img src="/assignments/project2/images/card2.png" alt="card1">
+            <h1>Buy a home</h1>
+            <p>Find your place with an immersive photo
+                experience and the most listings, including
+                things you won’t find anywhere else.</p>
+            <a href="#" class="button">Search homes</a>
+        </div>
+        <div class="cards">
+            <img src="/assignments/project2/images/card1.png" alt="card1">
+            <h1>Sell a home</h1>
+            <p>No matter what path you take to sell your home, we can help you navigate a successful sale.</p>
+            <a href="#" class="button">See your options</a>
+        </div>
+        <div class="cards">
+            <img src="/assignments/project2/images/card3.png" alt="card1">
+            <h1>Rent a home</h1>
+            <p>We’re creating a seamless online experience - from shopping on the largest rental network, to applying, to paying rent.</p>
+            <a href="#" class="button">Find rentals</a>
+        </div>
+    </div>
+</section>
+
+<section class="drop-links">
+    <ul>
+        <li><a href="#">Real Estate<i class="fa-solid fa-angle-down"></i></a></li>
+        <li><a href="#">Rentals<i class="fa-solid fa-angle-down"></i></a></li>
+        <li><a href="#">Mortgage Rates<i class="fa-solid fa-angle-down"></i></a></li>
+        <li><a href="#">Browse Homes<i class="fa-solid fa-angle-down"></i></a></li>
+    </ul>
+</section>
+
+<div class="allinks">
+<section class="links">
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Zestimates</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Advertise</a></li>
+        <li><a href="#">Fair Housing Guide</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Privacy Portal</a></li>
+        <li><a href="#">Cookie Preference</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">AI</a></li>
+        <li><a href="#">Mobile Apps</a></li>
+        <li><a href="#">Trulia</a></li>
+        <li><a href="#">StreetEasy</a></li>
+        <li><a href="#">HotPads</a></li>
+        <li><a href="#">Out East</a></li>
+        <li><a href="#">ShowingTime</a></li>
+    </ul>
+</section>
+    <a href="#" id="sell">Do Not Sell My Personal Information →</a>
+</div>
+
+<section class="disclaimer">
+<p>Zillow Group is committed to ensuring digital accessibility for individuals with disabilities. We are continuously working to improve the accessibility of our web experience for everyone, and we welcome feedback and accommodation requests. If you wish to report an issue or seek an accommodation, please <a href="#"></a>let us know.</a><br>
+
+    Zillow, Inc. holds real estate brokerage licenses in multiple states. Zillow (Canada), Inc. holds real estate brokerage licenses in multiple provinces. A list of our real estate licenses is available <a href="#">here.</a><br>
+    TREC: <a href="#">Information about brokerage services, Consumer protection notice</a><br>
+    California DRE #1522444
+    <br><br>
+    <a href="#"><b>Contact Zillow, Inc. Brokerage</b></a><br><br>
+    For listings in Canada, the trademarks REALTOR®, REALTORS®, and the REALTOR® logo are controlled by The Canadian Real Estate Association (CREA) and identify real estate professionals who are members of CREA. The trademarks MLS®, Multiple Listing Service® and the associated logos are owned by CREA and identify the quality of services provided by real estate professionals who are members of CREA. Used under license.</p><br>
+    <img src="/assignments/project2/images/zillowlinks.png" width="500px;">
+</section>
+<section class="bottom">
+    <img src="/assignments/project2/images/bottom zillow.png">
+</section>
+</body>
+</html>
